@@ -28,5 +28,7 @@ def main():
 		sys.exit(1)
 	print("Everything looks fine.")
 	sys.exit(0)
+	
+# Add this dummy message in the remote repo only while there is another change in the local repo
 
 main()
