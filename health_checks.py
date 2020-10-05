@@ -24,6 +24,8 @@ def check_root_full():
 	"""Returns True if the root partition is full, False otherwise."""
 	return check_disk_full(disk="/", min_gb=2, min_percent=10)
 
+# Add this comment to test "rebase"
+# all_checks.py was renamed to health_checks.py directly in Github
 def check_no_network():
 	"""Retunrns True if it fails to resolve Google's URL, False otherwise."""
 	try:
