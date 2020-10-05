@@ -4,6 +4,7 @@ import os
 import shutil
 import sys
 import socket
+import psutil
 
 def check_reboot():
 	"""Returns True if the computer has a pending reboot."""
